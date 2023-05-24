@@ -38,7 +38,7 @@ Here you can see the settings for the appearance of the line with the level.
 
 3. Finally add, remove, change the position of the level in our sheet.
 4. After that, add a file called id to the ./img/lvls/ section. Example: 49.png
-5. Open the ./lvls section. Copy the code from the example.html file. Create a file with the name of the level id. Example: 21.html. Now you should paste the code from example.html into your file. Now you have to replace the text.  <hr />
+5. Open the ./lvls section. Copy the code from the example.html file. Create a file with the name of the level id. Example: 21.html. Now you should paste the code from example.html into your file. Now you have to replace the text. 
  
 ### **How to add a record under the level?**
 1. Open the file with the level you need in the ./lvls/ directory.
