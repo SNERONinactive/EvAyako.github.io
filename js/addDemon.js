@@ -42,42 +42,36 @@ ReactDOM.render(
             top: 2,
             username: 'NEGATIV',
             lvlname: 'BLACKOUT',
-            src: '',
             id: 37
         }),
         React.createElement(newDemon, {
             top: 3,
             username: 'r1val',
             lvlname: 'sakupen hell v2',
-            src: '',
             id: 99
         }),
         React.createElement(newDemon, {
             top: 4,
             username: 'WerTaZ',
             lvlname: 'Override',
-            src: '',
             id: 93
         }),
         React.createElement(newDemon, {
             top: 5,
             username: 'vitek8',
             lvlname: 'Lout',
-            src: '',
             id: 69
         }),
         React.createElement(newDemon, {
             top: 6,
             username: 'viteck8',
             lvlname: 'Six Cubes',
-            src: '',
             id: 61
         }),
         React.createElement(newDemon, {
             top: 7,
             username: 'Elytra Clutch',
             lvlname: 'Slow Motion',
-            src: './img/lvls/88.png',
             id: 88
         }),
 
