@@ -313,6 +313,17 @@ footer {
     font-size: 18px;
 }
 
+.home-github-img-mobile {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 300px;
+    justify-content: left;
+    border-radius: 7px;
+    box-shadow: 0 0 .5rem #000000;
+    transition: .5s;
+}
+
 .contacts-container {
     max-width: 900px;
     margin: 100px auto;
@@ -628,8 +639,24 @@ table {
     }
 
     .home-github-img {
+        display: none;
+    }
+
+    .home-github img {
+        width: 50px;
+    }
+
+    .home-github-img-mobile {
+        display: block;
+        text-align: center;
         margin: 0 auto;
-        margin-bottom: 10px;
+        width: 200px;
+    }
+
+    .home-github-img-mobile a {
+        display: flex;
+        align-items: center;
+        color: #000000;
     }
 }
 
