@@ -57,5 +57,5 @@ Here you can see the settings for the appearance of the line with the level.
     </tr>
   </table>
 ```
-3. To add a new record, you must copy the last block of <tr> tags. After that, paste it after the last <tr> tag block.
-4. It remains only to change the nickname, record and link to proofs.
+ 3. To add a new record, you must copy the last block of <tr> tags. After that, paste it after the last <tr> tag block.
+ 4. It remains only to change the nickname, record and link to proofs.
