@@ -13,7 +13,7 @@ const newDemon = React.createClass({
             }
         }, 
             React.DOM.img({
-                src: './img/lvls/' + id + '.png',
+                src: './img/lvls/' + this.props.id + '.png',
                 alt: ''
             }), React.DOM.div({
                 className: 'dl-item-txt'
