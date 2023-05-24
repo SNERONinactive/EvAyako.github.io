@@ -5,7 +5,7 @@ Welcome! This is the source code for the NrPs private server daemon. If you are 
 Some backgrounds were taken from global demonlist. You can look at their site [here](https://demonlist.org/).
 
 # For list moderators 
-**How to add levels to the top?**
+**__How to add levels to the top?__**
 1. First, open the addDemon.js or addChallenge.js file, depending on what you are going to add. Both files are in ./js.
 2. Scroll down and find the following lines:
  ```js
@@ -40,7 +40,7 @@ Here you can see the settings for the appearance of the line with the level.
 4. After that, add a file called id to the ./img/lvls/ section. Example: 49.png
 5. Open the ./lvls section. Copy the code from the example.html file. Create a file with the name of the level id. Example: 21.html. Now you should paste the code from example.html into your file. Now you have to replace the text.
 
-**How to add a record under the level?**
+**__How to add a record under the level?__**
 1. Open the file with the level you need in the ./lvls/ directory.
 2. Find the block of code with the table. It will look something like this:
 ```js
