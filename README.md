@@ -8,10 +8,15 @@ Some backgrounds were taken from global demonlist. You can look at their site [h
 **How to add levels to the top?**
 1. First, open the addDemon.js or addChallenge.js file, depending on what you are going to add. Both files are in ./js.
 2. Scroll down and find the following lines:
-
  ```js
   ReactDOM.render(
     React.DOM.ul({
         className: 'dl-list'
     }, 
  ```
+And
+```js
+    ), document.getElementById('dl-content')
+);
+```
+Between these lines is the list of levels itself. In order to add or remove a level, you need to remove or add a block of code, respectively.
