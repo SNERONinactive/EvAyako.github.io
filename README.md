@@ -5,5 +5,5 @@ Welcome! This is the source code for the NrPs private server daemon. If you are 
 Some backgrounds were taken from global demonlist. You can look at their site [here](https://demonlist.org/).
 
 **For list moderators**
-How to add levels to the top?
+**How to add levels to the top?**
 1. First, open the addDemon.js or addChallenge.js file, depending on what you are going to add. Both files are in ./js.
