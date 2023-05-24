@@ -3,7 +3,7 @@ const newChallenge = React.createClass({
         top: React.PropTypes.number.isRequired,
         username: React.PropTypes.string.isRequired,
         lvlname: React.PropTypes.string.isRequired,
-        src: React.PropTypes.string.isRequired
+        id: React.PropTypes.string.isRequired
     },
 
     render: function() {
@@ -14,7 +14,7 @@ const newChallenge = React.createClass({
             }
         }, 
             React.DOM.img({
-                src: this.props.src,
+                src: './img/lvls/' + id + '.png',
                 alt: ''
             }), React.DOM.div({
                 className: 'dl-item-txt'
