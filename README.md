@@ -37,3 +37,4 @@ Here you can see the settings for the appearance of the line with the level.
 - id is the id of the level
 
 3. Finally add, remove, change the position of the level in our sheet.
+4. After that, add a file called id to the ./img/lvls/ section. Example: 49.png
