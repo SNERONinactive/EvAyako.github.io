@@ -7,3 +7,11 @@ Some backgrounds were taken from global demonlist. You can look at their site [h
 # For list moderators 
 **How to add levels to the top?**
 1. First, open the addDemon.js or addChallenge.js file, depending on what you are going to add. Both files are in ./js.
+2. Scroll down and find the following lines:
+
+ ```js
+  ReactDOM.render(
+    React.DOM.ul({
+        className: 'dl-list'
+    }, 
+ ```
