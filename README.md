@@ -35,3 +35,5 @@ Here you can see the settings for the appearance of the line with the level.
 - lvlname is the name of the level.
 - src is the location of the level preview file.
 - id is the id of the level
+
+3. Finally add, remove, change the position of the level in our sheet.
