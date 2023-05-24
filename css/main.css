@@ -643,14 +643,20 @@ table {
     }
 
     .home-github img {
-        width: 50px;
+        width: 30px;
     }
 
     .home-github-img-mobile {
         display: block;
         text-align: center;
         margin: 0 auto;
-        width: 200px;
+        width: 170px;
+        transition: .5s;
+    }
+
+    .home-github-img-mobile:hover {
+        box-shadow: 0 0 1rem #000000;
+        transition: .5s;
     }
 
     .home-github-img-mobile a {
