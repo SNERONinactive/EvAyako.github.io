@@ -36,14 +36,12 @@ ReactDOM.render(
             top: 1,
             username: 'Aya',
             lvlname: 'ExoShere',
-            src: './img/lvls/prev.png',
             id: 106
         }),
         React.createElement(newChallenge, {
             top: 2,
             username: 'Den4ik',
             lvlname: 'The silver',
-            src: './img/lvls/98.png',
             id: 98
         }),
 
