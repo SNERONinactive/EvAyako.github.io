@@ -617,4 +617,31 @@ table {
     .contacts-items li img {
         margin-bottom: 10px;
     }
+
+    .home-github {
+        display: block;
+        justify-content: center;
+    }
+
+    .home-github-txt {
+        text-align: center;
+    }
+
+    .home-github-img {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dl-list img {
+        height: 150px;
+        padding: 0;
+        border-radius: 7px;
+    }
+
+    .lvl-video {
+        width: 300px;
+        height: 160px;
+    }
 }
