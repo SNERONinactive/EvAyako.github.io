@@ -3,7 +3,6 @@ const newDemon = React.createClass({
         top: React.PropTypes.number.isRequired,
         username: React.PropTypes.string.isRequired,
         lvlname: React.PropTypes.string.isRequired,
-        src: React.PropTypes.string.isRequired,
         id: React.PropTypes.string.isRequired
     },
 
@@ -14,7 +13,7 @@ const newDemon = React.createClass({
             }
         }, 
             React.DOM.img({
-                src: this.props.src,
+                src: './img/lvls/' + id + '.png',
                 alt: ''
             }), React.DOM.div({
                 className: 'dl-item-txt'
@@ -36,28 +35,24 @@ ReactDOM.render(
             top: 1,
             username: 'r1val',
             lvlname: 'Sakupen Hell v2',
-            src: './img/lvls/99.png',
             id: 99
         }),
         React.createElement(newDemon, {
             top: 2,
             username: 'Vitek08',
             lvlname: 'Lout',
-            src: './img/lvls/69.png',
             id: 69
         }),
         React.createElement(newDemon, {
             top: 3,
             username: 'Vitek08',
             lvlname: 'Six Cubes',
-            src: './img/lvls/61.png',
             id: 61
 	  }),
         React.createElement(newDemon, {
             top: 4,
             username: 'Elytra Clutch',
             lvlname: 'Slow Motion',
-            src: './img/lvls/88.png',
             id: 88
         }),
 
