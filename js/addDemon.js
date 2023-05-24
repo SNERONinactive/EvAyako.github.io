@@ -31,34 +31,53 @@ ReactDOM.render(
     }, 
         //
         
-        React.createElement(newDemon, {
+     React.createElement(newDemon, {
             top: 1,
-            username: 'negative',
-            lvlname: 'blackout',
-            id: 37
+            username: 'NEGATIV',
+            lvlname: 'iron heart',
+            src: '',
+            id: 49
         }),
         React.createElement(newDemon, {
             top: 2,
-            username: 'r1val',
-            lvlname: 'Sakupen Hell v2',
-            id: 99
+            username: 'NEGATIV',
+            lvlname: 'BLACKOUT',
+            src: '',
+            id: 37
         }),
         React.createElement(newDemon, {
             top: 3,
-            username: 'Vitek08',
-            lvlname: 'Lout',
-            id: 69
+            username: 'r1val',
+            lvlname: 'sakupen hell v2',
+            src: '',
+            id: 99
         }),
         React.createElement(newDemon, {
             top: 4,
-            username: 'Vitek08',
-            lvlname: 'Six Cubes',
-            id: 61
-	  }),
+            username: 'WerTaZ',
+            lvlname: 'Override',
+            src: '',
+            id: 93
+        }),
         React.createElement(newDemon, {
             top: 5,
+            username: 'vitek8',
+            lvlname: 'Lout',
+            src: '',
+            id: 69
+        }),
+        React.createElement(newDemon, {
+            top: 6,
+            username: 'viteck8',
+            lvlname: 'Six Cubes',
+            src: '',
+            id: 61
+        }),
+        React.createElement(newDemon, {
+            top: 7,
             username: 'Elytra Clutch',
             lvlname: 'Slow Motion',
+            src: './img/lvls/88.png',
             id: 88
         }),
 
