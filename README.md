@@ -19,4 +19,19 @@ And
     ), document.getElementById('dl-content')
 );
 ```
-Between these lines is the list of levels itself. In order to add or remove a level, you need to remove or add a block of code, respectively.
+Between these lines is the list of levels itself. In order to add or remove a level, you need to remove or add a block of code, respectively. As an example, take these lines:
+```js
+React.createElement(newDemon, {
+  top: 1,
+  username: 'r1val',
+  lvlname: 'Sakupen Hell v2',
+  src: './img/lvls/99.png',
+  id: 99
+}),
+```
+Here you can see the settings for the appearance of the line with the level.
+- top is the location of the level in the top.
+- username is the nickname of the player who passed this level.
+- lvlname is the name of the level.
+- src is the location of the level preview file.
+- id is the id of the level
