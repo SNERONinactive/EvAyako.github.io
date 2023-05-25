@@ -33,10 +33,10 @@ ReactDOM.render(
         
      React.createElement(newImposible, {
             top: 1,
-            username: 'dd',
-            lvlname: 'dd',
+            username: 'negativ',
+            lvlname: 'config',
             src: '',
-            id: 0
+            id: 119
         }),
 
         //
