@@ -35,7 +35,6 @@ ReactDOM.render(
             top: 1,
             username: 'negativ',
             lvlname: 'config',
-            src: '',
             id: 119
         }),
 
