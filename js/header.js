@@ -47,10 +47,6 @@ ReactDOM.render(
             url: './cl.html'
         }),
         React.createElement(header, {
-            name: 'Top',
-            url: './top.html'
-        }),
-        React.createElement(header, {
             name: 'Contacts',
             url: './contacts.html'
         }),
