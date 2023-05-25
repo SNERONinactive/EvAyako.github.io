@@ -59,3 +59,5 @@ Here you can see the settings for the appearance of the line with the level.
 ```
   3. To add a new record, you must copy the last block of <tr> tags. After that, paste it after the last <tr> tag block.
   4. It remains only to change the nickname, record and link to proofs.
+ 
+ If you still do not understand how to interact with the site, watch [this video](https://youtu.be/5OBiuVxg6dI)
