@@ -26,7 +26,7 @@ ReactDOM.render(
     }, 
         React.createElement(newAdmin, {
             username: '私はあなたのお母さんを愛しています',
-            role: 'GDPS Owner',
+            role: 'GDPS Owner, Challengelist Owner',
             src: './img/devs/sasha.png',
             discord: '私はあなたのお母さんを愛しています#6603'
         }),
@@ -35,12 +35,6 @@ ReactDOM.render(
             role: 'Demonlist Owner',
             src: './img/devs/rival.png',
             discord: 'r1val#3333'
-        }),
-        React.createElement(newAdmin, {
-            username: 'Cross!Sans',
-            role: 'Challengelist Owner',
-            src: './img/devs/sans.png',
-            discord: 'Cross!Sans (X Chara)#2904'
         }),
         React.createElement(newAdmin, {
             username: 'Once',
